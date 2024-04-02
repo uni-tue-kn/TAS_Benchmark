@@ -16,7 +16,7 @@ Each set consists of 40 instances per parameter configuration, all parameters ar
 
 # Default Parameters
 The folder /instances_final/default contains the problem instances with default parameter configuration. These are implicitely part of every parameter study and must be considered, but the files are not duplicated in the folders of other studies.
-- Topology: Ring and RRG (20 per set each)
+- Topology: Ring and RRG (20 per set each).
 - Nodes: 20
 - Frames: 1000
 - Frame size: Uniformly sampled from [84,1542]
@@ -24,6 +24,8 @@ The folder /instances_final/default contains the problem instances with default 
 - Periods: 1ms+2ms
 - Latency: Same as stream period
 - Frames per period: 1
+
+Remark: Rings correspond to sparse topologies and RRGs correspond to highly meshed topologies. We suggest to evaluate all 40 problem instances of both topologies for a single result data point to cover the effects of different topologies. However, using only 20 problem instances of a single topology is also possible. In either case, 20 problem instances are sufficient to calculate confidence intervals.
 
 # Units and Encoding
 - Times are stated in nanoseconds
