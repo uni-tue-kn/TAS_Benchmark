@@ -1,0 +1,5672 @@
+{
+  "name" : "Instance90",
+  "topology" : "Ring",
+  "bridgeNum" : 50,
+  "streamNum" : 47,
+  "periods" : [ 1000000, 2000000 ],
+  "frameSize" : "Random",
+  "latency" : 1.0,
+  "framesPerPeriod" : 1,
+  "listenersPerStream" : 1,
+  "streams" : [ {
+    "name" : "Stream0",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES132",
+    "listeners" : [ "ES149" ],
+    "path" : [ "Link232-2/Port365", "Link33-1/Port66", "Link34-1/Port68", "Link35-1/Port70", "Link36-1/Port72", "Link249-1/Port398" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream1",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES187",
+    "listeners" : [ "ES7" ],
+    "path" : [ "Link287-2/Port475", "Link46-1/Port92", "Link47-1/Port94", "Link48-1/Port96", "Link49-1/Port98", "Link0-1/Port0", "Link107-1/Port114" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream2",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES9",
+    "listeners" : [ "ES23" ],
+    "path" : [ "Link109-2/Port119", "Link2-1/Port4", "Link3-1/Port6", "Link4-1/Port8", "Link123-1/Port146" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream3",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES103",
+    "listeners" : [ "ES197" ],
+    "path" : [ "Link203-2/Port307", "Link25-1/Port50", "Link26-1/Port52", "Link27-1/Port54", "Link28-1/Port56", "Link29-1/Port58", "Link30-1/Port60", "Link31-1/Port62", "Link32-1/Port64", "Link33-1/Port66", "Link34-1/Port68", "Link35-1/Port70", "Link36-1/Port72", "Link37-1/Port74", "Link38-1/Port76", "Link39-1/Port78", "Link40-1/Port80", "Link41-1/Port82", "Link42-1/Port84", "Link43-1/Port86", "Link44-1/Port88", "Link45-1/Port90", "Link46-1/Port92", "Link47-1/Port94", "Link48-1/Port96", "Link297-1/Port494" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream4",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES2",
+    "listeners" : [ "ES95" ],
+    "path" : [ "Link102-2/Port105", "Link0-1/Port0", "Link1-1/Port2", "Link2-1/Port4", "Link3-1/Port6", "Link4-1/Port8", "Link5-1/Port10", "Link6-1/Port12", "Link7-1/Port14", "Link8-1/Port16", "Link9-1/Port18", "Link10-1/Port20", "Link11-1/Port22", "Link12-1/Port24", "Link13-1/Port26", "Link14-1/Port28", "Link15-1/Port30", "Link16-1/Port32", "Link17-1/Port34", "Link18-1/Port36", "Link19-1/Port38", "Link20-1/Port40", "Link21-1/Port42", "Link22-1/Port44", "Link195-1/Port290" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream5",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES184",
+    "listeners" : [ "ES149" ],
+    "path" : [ "Link284-2/Port469", "Link45-2/Port91", "Link44-2/Port89", "Link43-2/Port87", "Link42-2/Port85", "Link41-2/Port83", "Link40-2/Port81", "Link39-2/Port79", "Link38-2/Port77", "Link37-2/Port75", "Link249-1/Port398" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream6",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES166",
+    "listeners" : [ "ES138" ],
+    "path" : [ "Link266-2/Port433", "Link40-2/Port81", "Link39-2/Port79", "Link38-2/Port77", "Link37-2/Port75", "Link36-2/Port73", "Link35-2/Port71", "Link34-2/Port69", "Link238-1/Port376" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream7",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES33",
+    "listeners" : [ "ES130" ],
+    "path" : [ "Link133-2/Port167", "Link8-1/Port16", "Link9-1/Port18", "Link10-1/Port20", "Link11-1/Port22", "Link12-1/Port24", "Link13-1/Port26", "Link14-1/Port28", "Link15-1/Port30", "Link16-1/Port32", "Link17-1/Port34", "Link18-1/Port36", "Link19-1/Port38", "Link20-1/Port40", "Link21-1/Port42", "Link22-1/Port44", "Link23-1/Port46", "Link24-1/Port48", "Link25-1/Port50", "Link26-1/Port52", "Link27-1/Port54", "Link28-1/Port56", "Link29-1/Port58", "Link30-1/Port60", "Link31-1/Port62", "Link230-1/Port360" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream8",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES34",
+    "listeners" : [ "ES153" ],
+    "path" : [ "Link134-2/Port169", "Link7-2/Port15", "Link6-2/Port13", "Link5-2/Port11", "Link4-2/Port9", "Link3-2/Port7", "Link2-2/Port5", "Link1-2/Port3", "Link0-2/Port1", "Link49-2/Port99", "Link48-2/Port97", "Link47-2/Port95", "Link46-2/Port93", "Link45-2/Port91", "Link44-2/Port89", "Link43-2/Port87", "Link42-2/Port85", "Link41-2/Port83", "Link40-2/Port81", "Link39-2/Port79", "Link38-2/Port77", "Link253-1/Port406" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream9",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES76",
+    "listeners" : [ "ES179" ],
+    "path" : [ "Link176-2/Port253", "Link18-2/Port37", "Link17-2/Port35", "Link16-2/Port33", "Link15-2/Port31", "Link14-2/Port29", "Link13-2/Port27", "Link12-2/Port25", "Link11-2/Port23", "Link10-2/Port21", "Link9-2/Port19", "Link8-2/Port17", "Link7-2/Port15", "Link6-2/Port13", "Link5-2/Port11", "Link4-2/Port9", "Link3-2/Port7", "Link2-2/Port5", "Link1-2/Port3", "Link0-2/Port1", "Link49-2/Port99", "Link48-2/Port97", "Link47-2/Port95", "Link46-2/Port93", "Link45-2/Port91", "Link44-2/Port89", "Link279-1/Port458" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream10",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES50",
+    "listeners" : [ "ES187" ],
+    "path" : [ "Link150-2/Port201", "Link11-2/Port23", "Link10-2/Port21", "Link9-2/Port19", "Link8-2/Port17", "Link7-2/Port15", "Link6-2/Port13", "Link5-2/Port11", "Link4-2/Port9", "Link3-2/Port7", "Link2-2/Port5", "Link1-2/Port3", "Link0-2/Port1", "Link49-2/Port99", "Link48-2/Port97", "Link47-2/Port95", "Link46-2/Port93", "Link287-1/Port474" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream11",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES95",
+    "listeners" : [ "ES21" ],
+    "path" : [ "Link195-2/Port291", "Link22-2/Port45", "Link21-2/Port43", "Link20-2/Port41", "Link19-2/Port39", "Link18-2/Port37", "Link17-2/Port35", "Link16-2/Port33", "Link15-2/Port31", "Link14-2/Port29", "Link13-2/Port27", "Link12-2/Port25", "Link11-2/Port23", "Link10-2/Port21", "Link9-2/Port19", "Link8-2/Port17", "Link7-2/Port15", "Link6-2/Port13", "Link5-2/Port11", "Link121-1/Port142" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream12",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES26",
+    "listeners" : [ "ES89" ],
+    "path" : [ "Link126-2/Port153", "Link6-1/Port12", "Link7-1/Port14", "Link8-1/Port16", "Link9-1/Port18", "Link10-1/Port20", "Link11-1/Port22", "Link12-1/Port24", "Link13-1/Port26", "Link14-1/Port28", "Link15-1/Port30", "Link16-1/Port32", "Link17-1/Port34", "Link18-1/Port36", "Link19-1/Port38", "Link20-1/Port40", "Link21-1/Port42", "Link189-1/Port278" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream13",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES175",
+    "listeners" : [ "ES158" ],
+    "path" : [ "Link275-2/Port451", "Link42-2/Port85", "Link41-2/Port83", "Link40-2/Port81", "Link39-2/Port79", "Link258-1/Port416" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream14",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES171",
+    "listeners" : [ "ES164" ],
+    "path" : [ "Link271-2/Port443", "Link41-2/Port83", "Link264-1/Port428" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream15",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES134",
+    "listeners" : [ "ES86" ],
+    "path" : [ "Link234-2/Port369", "Link32-2/Port65", "Link31-2/Port63", "Link30-2/Port61", "Link29-2/Port59", "Link28-2/Port57", "Link27-2/Port55", "Link26-2/Port53", "Link25-2/Port51", "Link24-2/Port49", "Link23-2/Port47", "Link22-2/Port45", "Link21-2/Port43", "Link186-1/Port272" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream16",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES119",
+    "listeners" : [ "ES131" ],
+    "path" : [ "Link219-2/Port339", "Link29-1/Port58", "Link30-1/Port60", "Link31-1/Port62", "Link231-1/Port362" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream17",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES128",
+    "listeners" : [ "ES33" ],
+    "path" : [ "Link228-2/Port357", "Link31-2/Port63", "Link30-2/Port61", "Link29-2/Port59", "Link28-2/Port57", "Link27-2/Port55", "Link26-2/Port53", "Link25-2/Port51", "Link24-2/Port49", "Link23-2/Port47", "Link22-2/Port45", "Link21-2/Port43", "Link20-2/Port41", "Link19-2/Port39", "Link18-2/Port37", "Link17-2/Port35", "Link16-2/Port33", "Link15-2/Port31", "Link14-2/Port29", "Link13-2/Port27", "Link12-2/Port25", "Link11-2/Port23", "Link10-2/Port21", "Link9-2/Port19", "Link8-2/Port17", "Link133-1/Port166" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream18",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES108",
+    "listeners" : [ "ES96" ],
+    "path" : [ "Link208-2/Port317", "Link26-2/Port53", "Link25-2/Port51", "Link24-2/Port49", "Link196-1/Port292" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream19",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES110",
+    "listeners" : [ "ES87" ],
+    "path" : [ "Link210-2/Port321", "Link26-2/Port53", "Link25-2/Port51", "Link24-2/Port49", "Link23-2/Port47", "Link22-2/Port45", "Link21-2/Port43", "Link187-1/Port274" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream20",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES138",
+    "listeners" : [ "ES155" ],
+    "path" : [ "Link238-2/Port377", "Link34-1/Port68", "Link35-1/Port70", "Link36-1/Port72", "Link37-1/Port74", "Link255-1/Port410" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream21",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES7",
+    "listeners" : [ "ES104" ],
+    "path" : [ "Link107-2/Port115", "Link0-2/Port1", "Link49-2/Port99", "Link48-2/Port97", "Link47-2/Port95", "Link46-2/Port93", "Link45-2/Port91", "Link44-2/Port89", "Link43-2/Port87", "Link42-2/Port85", "Link41-2/Port83", "Link40-2/Port81", "Link39-2/Port79", "Link38-2/Port77", "Link37-2/Port75", "Link36-2/Port73", "Link35-2/Port71", "Link34-2/Port69", "Link33-2/Port67", "Link32-2/Port65", "Link31-2/Port63", "Link30-2/Port61", "Link29-2/Port59", "Link28-2/Port57", "Link27-2/Port55", "Link26-2/Port53", "Link204-1/Port308" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream22",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES58",
+    "listeners" : [ "ES154" ],
+    "path" : [ "Link158-2/Port217", "Link14-1/Port28", "Link15-1/Port30", "Link16-1/Port32", "Link17-1/Port34", "Link18-1/Port36", "Link19-1/Port38", "Link20-1/Port40", "Link21-1/Port42", "Link22-1/Port44", "Link23-1/Port46", "Link24-1/Port48", "Link25-1/Port50", "Link26-1/Port52", "Link27-1/Port54", "Link28-1/Port56", "Link29-1/Port58", "Link30-1/Port60", "Link31-1/Port62", "Link32-1/Port64", "Link33-1/Port66", "Link34-1/Port68", "Link35-1/Port70", "Link36-1/Port72", "Link37-1/Port74", "Link254-1/Port408" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream23",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES53",
+    "listeners" : [ "ES110" ],
+    "path" : [ "Link153-2/Port207", "Link13-1/Port26", "Link14-1/Port28", "Link15-1/Port30", "Link16-1/Port32", "Link17-1/Port34", "Link18-1/Port36", "Link19-1/Port38", "Link20-1/Port40", "Link21-1/Port42", "Link22-1/Port44", "Link23-1/Port46", "Link24-1/Port48", "Link25-1/Port50", "Link26-1/Port52", "Link210-1/Port320" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream24",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES176",
+    "listeners" : [ "ES124" ],
+    "path" : [ "Link276-2/Port453", "Link43-2/Port87", "Link42-2/Port85", "Link41-2/Port83", "Link40-2/Port81", "Link39-2/Port79", "Link38-2/Port77", "Link37-2/Port75", "Link36-2/Port73", "Link35-2/Port71", "Link34-2/Port69", "Link33-2/Port67", "Link32-2/Port65", "Link31-2/Port63", "Link224-1/Port348" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream25",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES150",
+    "listeners" : [ "ES195" ],
+    "path" : [ "Link250-2/Port401", "Link37-1/Port74", "Link38-1/Port76", "Link39-1/Port78", "Link40-1/Port80", "Link41-1/Port82", "Link42-1/Port84", "Link43-1/Port86", "Link44-1/Port88", "Link45-1/Port90", "Link46-1/Port92", "Link47-1/Port94", "Link295-1/Port490" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream26",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES147",
+    "listeners" : [ "ES135" ],
+    "path" : [ "Link247-2/Port395", "Link35-2/Port71", "Link34-2/Port69", "Link33-2/Port67", "Link235-1/Port370" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream27",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES42",
+    "listeners" : [ "ES192" ],
+    "path" : [ "Link142-2/Port185", "Link9-2/Port19", "Link8-2/Port17", "Link7-2/Port15", "Link6-2/Port13", "Link5-2/Port11", "Link4-2/Port9", "Link3-2/Port7", "Link2-2/Port5", "Link1-2/Port3", "Link0-2/Port1", "Link49-2/Port99", "Link48-2/Port97", "Link292-1/Port484" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream28",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES32",
+    "listeners" : [ "ES140" ],
+    "path" : [ "Link132-2/Port165", "Link7-2/Port15", "Link6-2/Port13", "Link5-2/Port11", "Link4-2/Port9", "Link3-2/Port7", "Link2-2/Port5", "Link1-2/Port3", "Link0-2/Port1", "Link49-2/Port99", "Link48-2/Port97", "Link47-2/Port95", "Link46-2/Port93", "Link45-2/Port91", "Link44-2/Port89", "Link43-2/Port87", "Link42-2/Port85", "Link41-2/Port83", "Link40-2/Port81", "Link39-2/Port79", "Link38-2/Port77", "Link37-2/Port75", "Link36-2/Port73", "Link35-2/Port71", "Link240-1/Port380" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream29",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES101",
+    "listeners" : [ "ES32" ],
+    "path" : [ "Link201-2/Port303", "Link24-2/Port49", "Link23-2/Port47", "Link22-2/Port45", "Link21-2/Port43", "Link20-2/Port41", "Link19-2/Port39", "Link18-2/Port37", "Link17-2/Port35", "Link16-2/Port33", "Link15-2/Port31", "Link14-2/Port29", "Link13-2/Port27", "Link12-2/Port25", "Link11-2/Port23", "Link10-2/Port21", "Link9-2/Port19", "Link8-2/Port17", "Link132-1/Port164" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream30",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES150",
+    "listeners" : [ "ES106" ],
+    "path" : [ "Link250-2/Port401", "Link36-2/Port73", "Link35-2/Port71", "Link34-2/Port69", "Link33-2/Port67", "Link32-2/Port65", "Link31-2/Port63", "Link30-2/Port61", "Link29-2/Port59", "Link28-2/Port57", "Link27-2/Port55", "Link26-2/Port53", "Link206-1/Port312" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream31",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES53",
+    "listeners" : [ "ES136" ],
+    "path" : [ "Link153-2/Port207", "Link13-1/Port26", "Link14-1/Port28", "Link15-1/Port30", "Link16-1/Port32", "Link17-1/Port34", "Link18-1/Port36", "Link19-1/Port38", "Link20-1/Port40", "Link21-1/Port42", "Link22-1/Port44", "Link23-1/Port46", "Link24-1/Port48", "Link25-1/Port50", "Link26-1/Port52", "Link27-1/Port54", "Link28-1/Port56", "Link29-1/Port58", "Link30-1/Port60", "Link31-1/Port62", "Link32-1/Port64", "Link33-1/Port66", "Link236-1/Port372" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream32",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES91",
+    "listeners" : [ "ES84" ],
+    "path" : [ "Link191-2/Port283", "Link21-2/Port43", "Link184-1/Port268" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream33",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES78",
+    "listeners" : [ "ES42" ],
+    "path" : [ "Link178-2/Port257", "Link18-2/Port37", "Link17-2/Port35", "Link16-2/Port33", "Link15-2/Port31", "Link14-2/Port29", "Link13-2/Port27", "Link12-2/Port25", "Link11-2/Port23", "Link10-2/Port21", "Link142-1/Port184" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream34",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES124",
+    "listeners" : [ "ES94" ],
+    "path" : [ "Link224-2/Port349", "Link30-2/Port61", "Link29-2/Port59", "Link28-2/Port57", "Link27-2/Port55", "Link26-2/Port53", "Link25-2/Port51", "Link24-2/Port49", "Link23-2/Port47", "Link194-1/Port288" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream35",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES36",
+    "listeners" : [ "ES52" ],
+    "path" : [ "Link136-2/Port173", "Link9-1/Port18", "Link10-1/Port20", "Link11-1/Port22", "Link12-1/Port24", "Link152-1/Port204" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream36",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES27",
+    "listeners" : [ "ES183" ],
+    "path" : [ "Link127-2/Port155", "Link5-2/Port11", "Link4-2/Port9", "Link3-2/Port7", "Link2-2/Port5", "Link1-2/Port3", "Link0-2/Port1", "Link49-2/Port99", "Link48-2/Port97", "Link47-2/Port95", "Link46-2/Port93", "Link45-2/Port91", "Link283-1/Port466" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream37",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES6",
+    "listeners" : [ "ES64" ],
+    "path" : [ "Link106-2/Port113", "Link1-1/Port2", "Link2-1/Port4", "Link3-1/Port6", "Link4-1/Port8", "Link5-1/Port10", "Link6-1/Port12", "Link7-1/Port14", "Link8-1/Port16", "Link9-1/Port18", "Link10-1/Port20", "Link11-1/Port22", "Link12-1/Port24", "Link13-1/Port26", "Link14-1/Port28", "Link15-1/Port30", "Link164-1/Port228" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream38",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES7",
+    "listeners" : [ "ES13" ],
+    "path" : [ "Link107-2/Port115", "Link1-1/Port2", "Link2-1/Port4", "Link113-1/Port126" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream39",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES171",
+    "listeners" : [ "ES94" ],
+    "path" : [ "Link271-2/Port443", "Link41-2/Port83", "Link40-2/Port81", "Link39-2/Port79", "Link38-2/Port77", "Link37-2/Port75", "Link36-2/Port73", "Link35-2/Port71", "Link34-2/Port69", "Link33-2/Port67", "Link32-2/Port65", "Link31-2/Port63", "Link30-2/Port61", "Link29-2/Port59", "Link28-2/Port57", "Link27-2/Port55", "Link26-2/Port53", "Link25-2/Port51", "Link24-2/Port49", "Link23-2/Port47", "Link194-1/Port288" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream40",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES95",
+    "listeners" : [ "ES163" ],
+    "path" : [ "Link195-2/Port291", "Link23-1/Port46", "Link24-1/Port48", "Link25-1/Port50", "Link26-1/Port52", "Link27-1/Port54", "Link28-1/Port56", "Link29-1/Port58", "Link30-1/Port60", "Link31-1/Port62", "Link32-1/Port64", "Link33-1/Port66", "Link34-1/Port68", "Link35-1/Port70", "Link36-1/Port72", "Link37-1/Port74", "Link38-1/Port76", "Link39-1/Port78", "Link263-1/Port426" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream41",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES22",
+    "listeners" : [ "ES31" ],
+    "path" : [ "Link122-2/Port145", "Link5-1/Port10", "Link6-1/Port12", "Link131-1/Port162" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream42",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES148",
+    "listeners" : [ "ES63" ],
+    "path" : [ "Link248-2/Port397", "Link36-2/Port73", "Link35-2/Port71", "Link34-2/Port69", "Link33-2/Port67", "Link32-2/Port65", "Link31-2/Port63", "Link30-2/Port61", "Link29-2/Port59", "Link28-2/Port57", "Link27-2/Port55", "Link26-2/Port53", "Link25-2/Port51", "Link24-2/Port49", "Link23-2/Port47", "Link22-2/Port45", "Link21-2/Port43", "Link20-2/Port41", "Link19-2/Port39", "Link18-2/Port37", "Link17-2/Port35", "Link16-2/Port33", "Link15-2/Port31", "Link163-1/Port226" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream43",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES57",
+    "listeners" : [ "ES125" ],
+    "path" : [ "Link157-2/Port215", "Link14-1/Port28", "Link15-1/Port30", "Link16-1/Port32", "Link17-1/Port34", "Link18-1/Port36", "Link19-1/Port38", "Link20-1/Port40", "Link21-1/Port42", "Link22-1/Port44", "Link23-1/Port46", "Link24-1/Port48", "Link25-1/Port50", "Link26-1/Port52", "Link27-1/Port54", "Link28-1/Port56", "Link29-1/Port58", "Link30-1/Port60", "Link225-1/Port350" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream44",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES181",
+    "listeners" : [ "ES122" ],
+    "path" : [ "Link281-2/Port463", "Link44-2/Port89", "Link43-2/Port87", "Link42-2/Port85", "Link41-2/Port83", "Link40-2/Port81", "Link39-2/Port79", "Link38-2/Port77", "Link37-2/Port75", "Link36-2/Port73", "Link35-2/Port71", "Link34-2/Port69", "Link33-2/Port67", "Link32-2/Port65", "Link31-2/Port63", "Link30-2/Port61", "Link222-1/Port344" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  }, {
+    "name" : "Stream45",
+    "type" : "TT",
+    "period" : 1000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 1000000.0,
+    "deadline" : 1000000,
+    "talker" : "ES37",
+    "listeners" : [ "ES145" ],
+    "path" : [ "Link137-2/Port175", "Link8-2/Port17", "Link7-2/Port15", "Link6-2/Port13", "Link5-2/Port11", "Link4-2/Port9", "Link3-2/Port7", "Link2-2/Port5", "Link1-2/Port3", "Link0-2/Port1", "Link49-2/Port99", "Link48-2/Port97", "Link47-2/Port95", "Link46-2/Port93", "Link45-2/Port91", "Link44-2/Port89", "Link43-2/Port87", "Link42-2/Port85", "Link41-2/Port83", "Link40-2/Port81", "Link39-2/Port79", "Link38-2/Port77", "Link37-2/Port75", "Link36-2/Port73", "Link245-1/Port390" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 1000000
+  }, {
+    "name" : "Stream46",
+    "type" : "TT",
+    "period" : 2000000,
+    "framesPerPeriod" : 1,
+    "maxFrameSize" : 1542,
+    "maxLatency" : 2000000.0,
+    "deadline" : 2000000,
+    "talker" : "ES172",
+    "listeners" : [ "ES171" ],
+    "path" : [ "Link272-2/Port445", "Link42-2/Port85", "Link271-1/Port442" ],
+    "priority" : 5,
+    "earliestOffset" : 0,
+    "latestOffset" : 2000000
+  } ],
+  "nodes" : [ {
+    "name" : "ES0",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES1",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES2",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES3",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES4",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES5",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES6",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES7",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES8",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES9",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES10",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES11",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES12",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES13",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES14",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES15",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES16",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES17",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES18",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES19",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES20",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES21",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES22",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES23",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES24",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES25",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES26",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES27",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES28",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES29",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES30",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES31",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES32",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES33",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES34",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES35",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES36",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES37",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES38",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES39",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES40",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES41",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES42",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES43",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES44",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES45",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES46",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES47",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES48",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES49",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES50",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES51",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES52",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES53",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES54",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES55",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES56",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES57",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES58",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES59",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES60",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES61",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES62",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES63",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES64",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES65",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES66",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES67",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES68",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES69",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES70",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES71",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES72",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES73",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES74",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES75",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES76",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES77",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES78",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES79",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES80",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES81",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES82",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES83",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES84",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES85",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES86",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES87",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES88",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES89",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES90",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES91",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES92",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES93",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES94",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES95",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES96",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES97",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES98",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES99",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES100",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES101",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES102",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES103",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES104",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES105",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES106",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES107",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES108",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES109",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES110",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES111",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES112",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES113",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES114",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES115",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES116",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES117",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES118",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES119",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES120",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES121",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES122",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES123",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES124",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES125",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES126",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES127",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES128",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES129",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES130",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES131",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES132",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES133",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES134",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES135",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES136",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES137",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES138",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES139",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES140",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES141",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES142",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES143",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES144",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES145",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES146",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES147",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES148",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES149",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES150",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES151",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES152",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES153",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES154",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES155",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES156",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES157",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES158",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES159",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES160",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES161",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES162",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES163",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES164",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES165",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES166",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES167",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES168",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES169",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES170",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES171",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES172",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES173",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES174",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES175",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES176",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES177",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES178",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES179",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES180",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES181",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES182",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES183",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES184",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES185",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES186",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES187",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES188",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES189",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES190",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES191",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES192",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES193",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES194",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES195",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES196",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES197",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES198",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "ES199",
+    "isBridge" : false,
+    "processingDelay" : 0
+  }, {
+    "name" : "Bridge0",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge1",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge2",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge3",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge4",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge5",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge6",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge7",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge8",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge9",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge10",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge11",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge12",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge13",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge14",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge15",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge16",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge17",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge18",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge19",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge20",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge21",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge22",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge23",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge24",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge25",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge26",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge27",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge28",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge29",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge30",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge31",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge32",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge33",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge34",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge35",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge36",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge37",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge38",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge39",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge40",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge41",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge42",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge43",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge44",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge45",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge46",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge47",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge48",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  }, {
+    "name" : "Bridge49",
+    "isBridge" : true,
+    "processingDelay" : 1000
+  } ],
+  "links/ports" : [ {
+    "name" : "Link0-1/Port0",
+    "source" : "Bridge0",
+    "destination" : "Bridge1",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link0-2/Port1",
+    "source" : "Bridge1",
+    "destination" : "Bridge0",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link1-1/Port2",
+    "source" : "Bridge1",
+    "destination" : "Bridge2",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link1-2/Port3",
+    "source" : "Bridge2",
+    "destination" : "Bridge1",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link2-1/Port4",
+    "source" : "Bridge2",
+    "destination" : "Bridge3",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link2-2/Port5",
+    "source" : "Bridge3",
+    "destination" : "Bridge2",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link3-1/Port6",
+    "source" : "Bridge3",
+    "destination" : "Bridge4",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link3-2/Port7",
+    "source" : "Bridge4",
+    "destination" : "Bridge3",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link4-1/Port8",
+    "source" : "Bridge4",
+    "destination" : "Bridge5",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link4-2/Port9",
+    "source" : "Bridge5",
+    "destination" : "Bridge4",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link5-1/Port10",
+    "source" : "Bridge5",
+    "destination" : "Bridge6",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link5-2/Port11",
+    "source" : "Bridge6",
+    "destination" : "Bridge5",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link6-1/Port12",
+    "source" : "Bridge6",
+    "destination" : "Bridge7",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link6-2/Port13",
+    "source" : "Bridge7",
+    "destination" : "Bridge6",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link7-1/Port14",
+    "source" : "Bridge7",
+    "destination" : "Bridge8",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link7-2/Port15",
+    "source" : "Bridge8",
+    "destination" : "Bridge7",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link8-1/Port16",
+    "source" : "Bridge8",
+    "destination" : "Bridge9",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link8-2/Port17",
+    "source" : "Bridge9",
+    "destination" : "Bridge8",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link9-1/Port18",
+    "source" : "Bridge9",
+    "destination" : "Bridge10",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link9-2/Port19",
+    "source" : "Bridge10",
+    "destination" : "Bridge9",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link10-1/Port20",
+    "source" : "Bridge10",
+    "destination" : "Bridge11",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link10-2/Port21",
+    "source" : "Bridge11",
+    "destination" : "Bridge10",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link11-1/Port22",
+    "source" : "Bridge11",
+    "destination" : "Bridge12",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link11-2/Port23",
+    "source" : "Bridge12",
+    "destination" : "Bridge11",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link12-1/Port24",
+    "source" : "Bridge12",
+    "destination" : "Bridge13",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link12-2/Port25",
+    "source" : "Bridge13",
+    "destination" : "Bridge12",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link13-1/Port26",
+    "source" : "Bridge13",
+    "destination" : "Bridge14",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link13-2/Port27",
+    "source" : "Bridge14",
+    "destination" : "Bridge13",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link14-1/Port28",
+    "source" : "Bridge14",
+    "destination" : "Bridge15",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link14-2/Port29",
+    "source" : "Bridge15",
+    "destination" : "Bridge14",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link15-1/Port30",
+    "source" : "Bridge15",
+    "destination" : "Bridge16",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link15-2/Port31",
+    "source" : "Bridge16",
+    "destination" : "Bridge15",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link16-1/Port32",
+    "source" : "Bridge16",
+    "destination" : "Bridge17",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link16-2/Port33",
+    "source" : "Bridge17",
+    "destination" : "Bridge16",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link17-1/Port34",
+    "source" : "Bridge17",
+    "destination" : "Bridge18",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link17-2/Port35",
+    "source" : "Bridge18",
+    "destination" : "Bridge17",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link18-1/Port36",
+    "source" : "Bridge18",
+    "destination" : "Bridge19",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link18-2/Port37",
+    "source" : "Bridge19",
+    "destination" : "Bridge18",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link19-1/Port38",
+    "source" : "Bridge19",
+    "destination" : "Bridge20",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link19-2/Port39",
+    "source" : "Bridge20",
+    "destination" : "Bridge19",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link20-1/Port40",
+    "source" : "Bridge20",
+    "destination" : "Bridge21",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link20-2/Port41",
+    "source" : "Bridge21",
+    "destination" : "Bridge20",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link21-1/Port42",
+    "source" : "Bridge21",
+    "destination" : "Bridge22",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link21-2/Port43",
+    "source" : "Bridge22",
+    "destination" : "Bridge21",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link22-1/Port44",
+    "source" : "Bridge22",
+    "destination" : "Bridge23",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link22-2/Port45",
+    "source" : "Bridge23",
+    "destination" : "Bridge22",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link23-1/Port46",
+    "source" : "Bridge23",
+    "destination" : "Bridge24",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link23-2/Port47",
+    "source" : "Bridge24",
+    "destination" : "Bridge23",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link24-1/Port48",
+    "source" : "Bridge24",
+    "destination" : "Bridge25",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link24-2/Port49",
+    "source" : "Bridge25",
+    "destination" : "Bridge24",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link25-1/Port50",
+    "source" : "Bridge25",
+    "destination" : "Bridge26",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link25-2/Port51",
+    "source" : "Bridge26",
+    "destination" : "Bridge25",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link26-1/Port52",
+    "source" : "Bridge26",
+    "destination" : "Bridge27",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link26-2/Port53",
+    "source" : "Bridge27",
+    "destination" : "Bridge26",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link27-1/Port54",
+    "source" : "Bridge27",
+    "destination" : "Bridge28",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link27-2/Port55",
+    "source" : "Bridge28",
+    "destination" : "Bridge27",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link28-1/Port56",
+    "source" : "Bridge28",
+    "destination" : "Bridge29",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link28-2/Port57",
+    "source" : "Bridge29",
+    "destination" : "Bridge28",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link29-1/Port58",
+    "source" : "Bridge29",
+    "destination" : "Bridge30",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link29-2/Port59",
+    "source" : "Bridge30",
+    "destination" : "Bridge29",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link30-1/Port60",
+    "source" : "Bridge30",
+    "destination" : "Bridge31",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link30-2/Port61",
+    "source" : "Bridge31",
+    "destination" : "Bridge30",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link31-1/Port62",
+    "source" : "Bridge31",
+    "destination" : "Bridge32",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link31-2/Port63",
+    "source" : "Bridge32",
+    "destination" : "Bridge31",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link32-1/Port64",
+    "source" : "Bridge32",
+    "destination" : "Bridge33",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link32-2/Port65",
+    "source" : "Bridge33",
+    "destination" : "Bridge32",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link33-1/Port66",
+    "source" : "Bridge33",
+    "destination" : "Bridge34",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link33-2/Port67",
+    "source" : "Bridge34",
+    "destination" : "Bridge33",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link34-1/Port68",
+    "source" : "Bridge34",
+    "destination" : "Bridge35",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link34-2/Port69",
+    "source" : "Bridge35",
+    "destination" : "Bridge34",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link35-1/Port70",
+    "source" : "Bridge35",
+    "destination" : "Bridge36",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link35-2/Port71",
+    "source" : "Bridge36",
+    "destination" : "Bridge35",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link36-1/Port72",
+    "source" : "Bridge36",
+    "destination" : "Bridge37",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link36-2/Port73",
+    "source" : "Bridge37",
+    "destination" : "Bridge36",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link37-1/Port74",
+    "source" : "Bridge37",
+    "destination" : "Bridge38",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link37-2/Port75",
+    "source" : "Bridge38",
+    "destination" : "Bridge37",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link38-1/Port76",
+    "source" : "Bridge38",
+    "destination" : "Bridge39",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link38-2/Port77",
+    "source" : "Bridge39",
+    "destination" : "Bridge38",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link39-1/Port78",
+    "source" : "Bridge39",
+    "destination" : "Bridge40",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link39-2/Port79",
+    "source" : "Bridge40",
+    "destination" : "Bridge39",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link40-1/Port80",
+    "source" : "Bridge40",
+    "destination" : "Bridge41",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link40-2/Port81",
+    "source" : "Bridge41",
+    "destination" : "Bridge40",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link41-1/Port82",
+    "source" : "Bridge41",
+    "destination" : "Bridge42",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link41-2/Port83",
+    "source" : "Bridge42",
+    "destination" : "Bridge41",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link42-1/Port84",
+    "source" : "Bridge42",
+    "destination" : "Bridge43",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link42-2/Port85",
+    "source" : "Bridge43",
+    "destination" : "Bridge42",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link43-1/Port86",
+    "source" : "Bridge43",
+    "destination" : "Bridge44",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link43-2/Port87",
+    "source" : "Bridge44",
+    "destination" : "Bridge43",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link44-1/Port88",
+    "source" : "Bridge44",
+    "destination" : "Bridge45",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link44-2/Port89",
+    "source" : "Bridge45",
+    "destination" : "Bridge44",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link45-1/Port90",
+    "source" : "Bridge45",
+    "destination" : "Bridge46",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link45-2/Port91",
+    "source" : "Bridge46",
+    "destination" : "Bridge45",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link46-1/Port92",
+    "source" : "Bridge46",
+    "destination" : "Bridge47",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link46-2/Port93",
+    "source" : "Bridge47",
+    "destination" : "Bridge46",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link47-1/Port94",
+    "source" : "Bridge47",
+    "destination" : "Bridge48",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link47-2/Port95",
+    "source" : "Bridge48",
+    "destination" : "Bridge47",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link48-1/Port96",
+    "source" : "Bridge48",
+    "destination" : "Bridge49",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link48-2/Port97",
+    "source" : "Bridge49",
+    "destination" : "Bridge48",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link49-1/Port98",
+    "source" : "Bridge49",
+    "destination" : "Bridge0",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link49-2/Port99",
+    "source" : "Bridge0",
+    "destination" : "Bridge49",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link100-1/Port100",
+    "source" : "Bridge0",
+    "destination" : "ES0",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link100-2/Port101",
+    "source" : "ES0",
+    "destination" : "Bridge0",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link101-1/Port102",
+    "source" : "Bridge0",
+    "destination" : "ES1",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link101-2/Port103",
+    "source" : "ES1",
+    "destination" : "Bridge0",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link102-1/Port104",
+    "source" : "Bridge0",
+    "destination" : "ES2",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link102-2/Port105",
+    "source" : "ES2",
+    "destination" : "Bridge0",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link103-1/Port106",
+    "source" : "Bridge0",
+    "destination" : "ES3",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link103-2/Port107",
+    "source" : "ES3",
+    "destination" : "Bridge0",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link104-1/Port108",
+    "source" : "Bridge1",
+    "destination" : "ES4",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link104-2/Port109",
+    "source" : "ES4",
+    "destination" : "Bridge1",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link105-1/Port110",
+    "source" : "Bridge1",
+    "destination" : "ES5",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link105-2/Port111",
+    "source" : "ES5",
+    "destination" : "Bridge1",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link106-1/Port112",
+    "source" : "Bridge1",
+    "destination" : "ES6",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link106-2/Port113",
+    "source" : "ES6",
+    "destination" : "Bridge1",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link107-1/Port114",
+    "source" : "Bridge1",
+    "destination" : "ES7",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link107-2/Port115",
+    "source" : "ES7",
+    "destination" : "Bridge1",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link108-1/Port116",
+    "source" : "Bridge2",
+    "destination" : "ES8",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link108-2/Port117",
+    "source" : "ES8",
+    "destination" : "Bridge2",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link109-1/Port118",
+    "source" : "Bridge2",
+    "destination" : "ES9",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link109-2/Port119",
+    "source" : "ES9",
+    "destination" : "Bridge2",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link110-1/Port120",
+    "source" : "Bridge2",
+    "destination" : "ES10",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link110-2/Port121",
+    "source" : "ES10",
+    "destination" : "Bridge2",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link111-1/Port122",
+    "source" : "Bridge2",
+    "destination" : "ES11",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link111-2/Port123",
+    "source" : "ES11",
+    "destination" : "Bridge2",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link112-1/Port124",
+    "source" : "Bridge3",
+    "destination" : "ES12",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link112-2/Port125",
+    "source" : "ES12",
+    "destination" : "Bridge3",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link113-1/Port126",
+    "source" : "Bridge3",
+    "destination" : "ES13",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link113-2/Port127",
+    "source" : "ES13",
+    "destination" : "Bridge3",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link114-1/Port128",
+    "source" : "Bridge3",
+    "destination" : "ES14",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link114-2/Port129",
+    "source" : "ES14",
+    "destination" : "Bridge3",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link115-1/Port130",
+    "source" : "Bridge3",
+    "destination" : "ES15",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link115-2/Port131",
+    "source" : "ES15",
+    "destination" : "Bridge3",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link116-1/Port132",
+    "source" : "Bridge4",
+    "destination" : "ES16",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link116-2/Port133",
+    "source" : "ES16",
+    "destination" : "Bridge4",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link117-1/Port134",
+    "source" : "Bridge4",
+    "destination" : "ES17",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link117-2/Port135",
+    "source" : "ES17",
+    "destination" : "Bridge4",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link118-1/Port136",
+    "source" : "Bridge4",
+    "destination" : "ES18",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link118-2/Port137",
+    "source" : "ES18",
+    "destination" : "Bridge4",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link119-1/Port138",
+    "source" : "Bridge4",
+    "destination" : "ES19",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link119-2/Port139",
+    "source" : "ES19",
+    "destination" : "Bridge4",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link120-1/Port140",
+    "source" : "Bridge5",
+    "destination" : "ES20",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link120-2/Port141",
+    "source" : "ES20",
+    "destination" : "Bridge5",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link121-1/Port142",
+    "source" : "Bridge5",
+    "destination" : "ES21",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link121-2/Port143",
+    "source" : "ES21",
+    "destination" : "Bridge5",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link122-1/Port144",
+    "source" : "Bridge5",
+    "destination" : "ES22",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link122-2/Port145",
+    "source" : "ES22",
+    "destination" : "Bridge5",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link123-1/Port146",
+    "source" : "Bridge5",
+    "destination" : "ES23",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link123-2/Port147",
+    "source" : "ES23",
+    "destination" : "Bridge5",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link124-1/Port148",
+    "source" : "Bridge6",
+    "destination" : "ES24",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link124-2/Port149",
+    "source" : "ES24",
+    "destination" : "Bridge6",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link125-1/Port150",
+    "source" : "Bridge6",
+    "destination" : "ES25",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link125-2/Port151",
+    "source" : "ES25",
+    "destination" : "Bridge6",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link126-1/Port152",
+    "source" : "Bridge6",
+    "destination" : "ES26",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link126-2/Port153",
+    "source" : "ES26",
+    "destination" : "Bridge6",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link127-1/Port154",
+    "source" : "Bridge6",
+    "destination" : "ES27",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link127-2/Port155",
+    "source" : "ES27",
+    "destination" : "Bridge6",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link128-1/Port156",
+    "source" : "Bridge7",
+    "destination" : "ES28",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link128-2/Port157",
+    "source" : "ES28",
+    "destination" : "Bridge7",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link129-1/Port158",
+    "source" : "Bridge7",
+    "destination" : "ES29",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link129-2/Port159",
+    "source" : "ES29",
+    "destination" : "Bridge7",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link130-1/Port160",
+    "source" : "Bridge7",
+    "destination" : "ES30",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link130-2/Port161",
+    "source" : "ES30",
+    "destination" : "Bridge7",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link131-1/Port162",
+    "source" : "Bridge7",
+    "destination" : "ES31",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link131-2/Port163",
+    "source" : "ES31",
+    "destination" : "Bridge7",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link132-1/Port164",
+    "source" : "Bridge8",
+    "destination" : "ES32",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link132-2/Port165",
+    "source" : "ES32",
+    "destination" : "Bridge8",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link133-1/Port166",
+    "source" : "Bridge8",
+    "destination" : "ES33",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link133-2/Port167",
+    "source" : "ES33",
+    "destination" : "Bridge8",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link134-1/Port168",
+    "source" : "Bridge8",
+    "destination" : "ES34",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link134-2/Port169",
+    "source" : "ES34",
+    "destination" : "Bridge8",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link135-1/Port170",
+    "source" : "Bridge8",
+    "destination" : "ES35",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link135-2/Port171",
+    "source" : "ES35",
+    "destination" : "Bridge8",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link136-1/Port172",
+    "source" : "Bridge9",
+    "destination" : "ES36",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link136-2/Port173",
+    "source" : "ES36",
+    "destination" : "Bridge9",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link137-1/Port174",
+    "source" : "Bridge9",
+    "destination" : "ES37",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link137-2/Port175",
+    "source" : "ES37",
+    "destination" : "Bridge9",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link138-1/Port176",
+    "source" : "Bridge9",
+    "destination" : "ES38",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link138-2/Port177",
+    "source" : "ES38",
+    "destination" : "Bridge9",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link139-1/Port178",
+    "source" : "Bridge9",
+    "destination" : "ES39",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link139-2/Port179",
+    "source" : "ES39",
+    "destination" : "Bridge9",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link140-1/Port180",
+    "source" : "Bridge10",
+    "destination" : "ES40",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link140-2/Port181",
+    "source" : "ES40",
+    "destination" : "Bridge10",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link141-1/Port182",
+    "source" : "Bridge10",
+    "destination" : "ES41",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link141-2/Port183",
+    "source" : "ES41",
+    "destination" : "Bridge10",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link142-1/Port184",
+    "source" : "Bridge10",
+    "destination" : "ES42",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link142-2/Port185",
+    "source" : "ES42",
+    "destination" : "Bridge10",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link143-1/Port186",
+    "source" : "Bridge10",
+    "destination" : "ES43",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link143-2/Port187",
+    "source" : "ES43",
+    "destination" : "Bridge10",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link144-1/Port188",
+    "source" : "Bridge11",
+    "destination" : "ES44",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link144-2/Port189",
+    "source" : "ES44",
+    "destination" : "Bridge11",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link145-1/Port190",
+    "source" : "Bridge11",
+    "destination" : "ES45",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link145-2/Port191",
+    "source" : "ES45",
+    "destination" : "Bridge11",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link146-1/Port192",
+    "source" : "Bridge11",
+    "destination" : "ES46",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link146-2/Port193",
+    "source" : "ES46",
+    "destination" : "Bridge11",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link147-1/Port194",
+    "source" : "Bridge11",
+    "destination" : "ES47",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link147-2/Port195",
+    "source" : "ES47",
+    "destination" : "Bridge11",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link148-1/Port196",
+    "source" : "Bridge12",
+    "destination" : "ES48",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link148-2/Port197",
+    "source" : "ES48",
+    "destination" : "Bridge12",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link149-1/Port198",
+    "source" : "Bridge12",
+    "destination" : "ES49",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link149-2/Port199",
+    "source" : "ES49",
+    "destination" : "Bridge12",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link150-1/Port200",
+    "source" : "Bridge12",
+    "destination" : "ES50",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link150-2/Port201",
+    "source" : "ES50",
+    "destination" : "Bridge12",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link151-1/Port202",
+    "source" : "Bridge12",
+    "destination" : "ES51",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link151-2/Port203",
+    "source" : "ES51",
+    "destination" : "Bridge12",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link152-1/Port204",
+    "source" : "Bridge13",
+    "destination" : "ES52",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link152-2/Port205",
+    "source" : "ES52",
+    "destination" : "Bridge13",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link153-1/Port206",
+    "source" : "Bridge13",
+    "destination" : "ES53",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link153-2/Port207",
+    "source" : "ES53",
+    "destination" : "Bridge13",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link154-1/Port208",
+    "source" : "Bridge13",
+    "destination" : "ES54",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link154-2/Port209",
+    "source" : "ES54",
+    "destination" : "Bridge13",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link155-1/Port210",
+    "source" : "Bridge13",
+    "destination" : "ES55",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link155-2/Port211",
+    "source" : "ES55",
+    "destination" : "Bridge13",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link156-1/Port212",
+    "source" : "Bridge14",
+    "destination" : "ES56",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link156-2/Port213",
+    "source" : "ES56",
+    "destination" : "Bridge14",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link157-1/Port214",
+    "source" : "Bridge14",
+    "destination" : "ES57",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link157-2/Port215",
+    "source" : "ES57",
+    "destination" : "Bridge14",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link158-1/Port216",
+    "source" : "Bridge14",
+    "destination" : "ES58",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link158-2/Port217",
+    "source" : "ES58",
+    "destination" : "Bridge14",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link159-1/Port218",
+    "source" : "Bridge14",
+    "destination" : "ES59",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link159-2/Port219",
+    "source" : "ES59",
+    "destination" : "Bridge14",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link160-1/Port220",
+    "source" : "Bridge15",
+    "destination" : "ES60",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link160-2/Port221",
+    "source" : "ES60",
+    "destination" : "Bridge15",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link161-1/Port222",
+    "source" : "Bridge15",
+    "destination" : "ES61",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link161-2/Port223",
+    "source" : "ES61",
+    "destination" : "Bridge15",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link162-1/Port224",
+    "source" : "Bridge15",
+    "destination" : "ES62",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link162-2/Port225",
+    "source" : "ES62",
+    "destination" : "Bridge15",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link163-1/Port226",
+    "source" : "Bridge15",
+    "destination" : "ES63",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link163-2/Port227",
+    "source" : "ES63",
+    "destination" : "Bridge15",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link164-1/Port228",
+    "source" : "Bridge16",
+    "destination" : "ES64",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link164-2/Port229",
+    "source" : "ES64",
+    "destination" : "Bridge16",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link165-1/Port230",
+    "source" : "Bridge16",
+    "destination" : "ES65",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link165-2/Port231",
+    "source" : "ES65",
+    "destination" : "Bridge16",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link166-1/Port232",
+    "source" : "Bridge16",
+    "destination" : "ES66",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link166-2/Port233",
+    "source" : "ES66",
+    "destination" : "Bridge16",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link167-1/Port234",
+    "source" : "Bridge16",
+    "destination" : "ES67",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link167-2/Port235",
+    "source" : "ES67",
+    "destination" : "Bridge16",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link168-1/Port236",
+    "source" : "Bridge17",
+    "destination" : "ES68",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link168-2/Port237",
+    "source" : "ES68",
+    "destination" : "Bridge17",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link169-1/Port238",
+    "source" : "Bridge17",
+    "destination" : "ES69",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link169-2/Port239",
+    "source" : "ES69",
+    "destination" : "Bridge17",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link170-1/Port240",
+    "source" : "Bridge17",
+    "destination" : "ES70",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link170-2/Port241",
+    "source" : "ES70",
+    "destination" : "Bridge17",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link171-1/Port242",
+    "source" : "Bridge17",
+    "destination" : "ES71",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link171-2/Port243",
+    "source" : "ES71",
+    "destination" : "Bridge17",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link172-1/Port244",
+    "source" : "Bridge18",
+    "destination" : "ES72",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link172-2/Port245",
+    "source" : "ES72",
+    "destination" : "Bridge18",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link173-1/Port246",
+    "source" : "Bridge18",
+    "destination" : "ES73",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link173-2/Port247",
+    "source" : "ES73",
+    "destination" : "Bridge18",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link174-1/Port248",
+    "source" : "Bridge18",
+    "destination" : "ES74",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link174-2/Port249",
+    "source" : "ES74",
+    "destination" : "Bridge18",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link175-1/Port250",
+    "source" : "Bridge18",
+    "destination" : "ES75",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link175-2/Port251",
+    "source" : "ES75",
+    "destination" : "Bridge18",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link176-1/Port252",
+    "source" : "Bridge19",
+    "destination" : "ES76",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link176-2/Port253",
+    "source" : "ES76",
+    "destination" : "Bridge19",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link177-1/Port254",
+    "source" : "Bridge19",
+    "destination" : "ES77",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link177-2/Port255",
+    "source" : "ES77",
+    "destination" : "Bridge19",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link178-1/Port256",
+    "source" : "Bridge19",
+    "destination" : "ES78",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link178-2/Port257",
+    "source" : "ES78",
+    "destination" : "Bridge19",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link179-1/Port258",
+    "source" : "Bridge19",
+    "destination" : "ES79",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link179-2/Port259",
+    "source" : "ES79",
+    "destination" : "Bridge19",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link180-1/Port260",
+    "source" : "Bridge20",
+    "destination" : "ES80",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link180-2/Port261",
+    "source" : "ES80",
+    "destination" : "Bridge20",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link181-1/Port262",
+    "source" : "Bridge20",
+    "destination" : "ES81",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link181-2/Port263",
+    "source" : "ES81",
+    "destination" : "Bridge20",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link182-1/Port264",
+    "source" : "Bridge20",
+    "destination" : "ES82",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link182-2/Port265",
+    "source" : "ES82",
+    "destination" : "Bridge20",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link183-1/Port266",
+    "source" : "Bridge20",
+    "destination" : "ES83",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link183-2/Port267",
+    "source" : "ES83",
+    "destination" : "Bridge20",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link184-1/Port268",
+    "source" : "Bridge21",
+    "destination" : "ES84",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link184-2/Port269",
+    "source" : "ES84",
+    "destination" : "Bridge21",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link185-1/Port270",
+    "source" : "Bridge21",
+    "destination" : "ES85",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link185-2/Port271",
+    "source" : "ES85",
+    "destination" : "Bridge21",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link186-1/Port272",
+    "source" : "Bridge21",
+    "destination" : "ES86",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link186-2/Port273",
+    "source" : "ES86",
+    "destination" : "Bridge21",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link187-1/Port274",
+    "source" : "Bridge21",
+    "destination" : "ES87",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link187-2/Port275",
+    "source" : "ES87",
+    "destination" : "Bridge21",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link188-1/Port276",
+    "source" : "Bridge22",
+    "destination" : "ES88",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link188-2/Port277",
+    "source" : "ES88",
+    "destination" : "Bridge22",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link189-1/Port278",
+    "source" : "Bridge22",
+    "destination" : "ES89",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link189-2/Port279",
+    "source" : "ES89",
+    "destination" : "Bridge22",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link190-1/Port280",
+    "source" : "Bridge22",
+    "destination" : "ES90",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link190-2/Port281",
+    "source" : "ES90",
+    "destination" : "Bridge22",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link191-1/Port282",
+    "source" : "Bridge22",
+    "destination" : "ES91",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link191-2/Port283",
+    "source" : "ES91",
+    "destination" : "Bridge22",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link192-1/Port284",
+    "source" : "Bridge23",
+    "destination" : "ES92",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link192-2/Port285",
+    "source" : "ES92",
+    "destination" : "Bridge23",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link193-1/Port286",
+    "source" : "Bridge23",
+    "destination" : "ES93",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link193-2/Port287",
+    "source" : "ES93",
+    "destination" : "Bridge23",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link194-1/Port288",
+    "source" : "Bridge23",
+    "destination" : "ES94",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link194-2/Port289",
+    "source" : "ES94",
+    "destination" : "Bridge23",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link195-1/Port290",
+    "source" : "Bridge23",
+    "destination" : "ES95",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link195-2/Port291",
+    "source" : "ES95",
+    "destination" : "Bridge23",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link196-1/Port292",
+    "source" : "Bridge24",
+    "destination" : "ES96",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link196-2/Port293",
+    "source" : "ES96",
+    "destination" : "Bridge24",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link197-1/Port294",
+    "source" : "Bridge24",
+    "destination" : "ES97",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link197-2/Port295",
+    "source" : "ES97",
+    "destination" : "Bridge24",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link198-1/Port296",
+    "source" : "Bridge24",
+    "destination" : "ES98",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link198-2/Port297",
+    "source" : "ES98",
+    "destination" : "Bridge24",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link199-1/Port298",
+    "source" : "Bridge24",
+    "destination" : "ES99",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link199-2/Port299",
+    "source" : "ES99",
+    "destination" : "Bridge24",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link200-1/Port300",
+    "source" : "Bridge25",
+    "destination" : "ES100",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link200-2/Port301",
+    "source" : "ES100",
+    "destination" : "Bridge25",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link201-1/Port302",
+    "source" : "Bridge25",
+    "destination" : "ES101",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link201-2/Port303",
+    "source" : "ES101",
+    "destination" : "Bridge25",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link202-1/Port304",
+    "source" : "Bridge25",
+    "destination" : "ES102",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link202-2/Port305",
+    "source" : "ES102",
+    "destination" : "Bridge25",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link203-1/Port306",
+    "source" : "Bridge25",
+    "destination" : "ES103",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link203-2/Port307",
+    "source" : "ES103",
+    "destination" : "Bridge25",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link204-1/Port308",
+    "source" : "Bridge26",
+    "destination" : "ES104",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link204-2/Port309",
+    "source" : "ES104",
+    "destination" : "Bridge26",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link205-1/Port310",
+    "source" : "Bridge26",
+    "destination" : "ES105",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link205-2/Port311",
+    "source" : "ES105",
+    "destination" : "Bridge26",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link206-1/Port312",
+    "source" : "Bridge26",
+    "destination" : "ES106",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link206-2/Port313",
+    "source" : "ES106",
+    "destination" : "Bridge26",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link207-1/Port314",
+    "source" : "Bridge26",
+    "destination" : "ES107",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link207-2/Port315",
+    "source" : "ES107",
+    "destination" : "Bridge26",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link208-1/Port316",
+    "source" : "Bridge27",
+    "destination" : "ES108",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link208-2/Port317",
+    "source" : "ES108",
+    "destination" : "Bridge27",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link209-1/Port318",
+    "source" : "Bridge27",
+    "destination" : "ES109",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link209-2/Port319",
+    "source" : "ES109",
+    "destination" : "Bridge27",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link210-1/Port320",
+    "source" : "Bridge27",
+    "destination" : "ES110",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link210-2/Port321",
+    "source" : "ES110",
+    "destination" : "Bridge27",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link211-1/Port322",
+    "source" : "Bridge27",
+    "destination" : "ES111",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link211-2/Port323",
+    "source" : "ES111",
+    "destination" : "Bridge27",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link212-1/Port324",
+    "source" : "Bridge28",
+    "destination" : "ES112",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link212-2/Port325",
+    "source" : "ES112",
+    "destination" : "Bridge28",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link213-1/Port326",
+    "source" : "Bridge28",
+    "destination" : "ES113",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link213-2/Port327",
+    "source" : "ES113",
+    "destination" : "Bridge28",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link214-1/Port328",
+    "source" : "Bridge28",
+    "destination" : "ES114",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link214-2/Port329",
+    "source" : "ES114",
+    "destination" : "Bridge28",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link215-1/Port330",
+    "source" : "Bridge28",
+    "destination" : "ES115",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link215-2/Port331",
+    "source" : "ES115",
+    "destination" : "Bridge28",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link216-1/Port332",
+    "source" : "Bridge29",
+    "destination" : "ES116",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link216-2/Port333",
+    "source" : "ES116",
+    "destination" : "Bridge29",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link217-1/Port334",
+    "source" : "Bridge29",
+    "destination" : "ES117",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link217-2/Port335",
+    "source" : "ES117",
+    "destination" : "Bridge29",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link218-1/Port336",
+    "source" : "Bridge29",
+    "destination" : "ES118",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link218-2/Port337",
+    "source" : "ES118",
+    "destination" : "Bridge29",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link219-1/Port338",
+    "source" : "Bridge29",
+    "destination" : "ES119",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link219-2/Port339",
+    "source" : "ES119",
+    "destination" : "Bridge29",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link220-1/Port340",
+    "source" : "Bridge30",
+    "destination" : "ES120",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link220-2/Port341",
+    "source" : "ES120",
+    "destination" : "Bridge30",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link221-1/Port342",
+    "source" : "Bridge30",
+    "destination" : "ES121",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link221-2/Port343",
+    "source" : "ES121",
+    "destination" : "Bridge30",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link222-1/Port344",
+    "source" : "Bridge30",
+    "destination" : "ES122",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link222-2/Port345",
+    "source" : "ES122",
+    "destination" : "Bridge30",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link223-1/Port346",
+    "source" : "Bridge30",
+    "destination" : "ES123",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link223-2/Port347",
+    "source" : "ES123",
+    "destination" : "Bridge30",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link224-1/Port348",
+    "source" : "Bridge31",
+    "destination" : "ES124",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link224-2/Port349",
+    "source" : "ES124",
+    "destination" : "Bridge31",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link225-1/Port350",
+    "source" : "Bridge31",
+    "destination" : "ES125",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link225-2/Port351",
+    "source" : "ES125",
+    "destination" : "Bridge31",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link226-1/Port352",
+    "source" : "Bridge31",
+    "destination" : "ES126",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link226-2/Port353",
+    "source" : "ES126",
+    "destination" : "Bridge31",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link227-1/Port354",
+    "source" : "Bridge31",
+    "destination" : "ES127",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link227-2/Port355",
+    "source" : "ES127",
+    "destination" : "Bridge31",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link228-1/Port356",
+    "source" : "Bridge32",
+    "destination" : "ES128",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link228-2/Port357",
+    "source" : "ES128",
+    "destination" : "Bridge32",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link229-1/Port358",
+    "source" : "Bridge32",
+    "destination" : "ES129",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link229-2/Port359",
+    "source" : "ES129",
+    "destination" : "Bridge32",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link230-1/Port360",
+    "source" : "Bridge32",
+    "destination" : "ES130",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link230-2/Port361",
+    "source" : "ES130",
+    "destination" : "Bridge32",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link231-1/Port362",
+    "source" : "Bridge32",
+    "destination" : "ES131",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link231-2/Port363",
+    "source" : "ES131",
+    "destination" : "Bridge32",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link232-1/Port364",
+    "source" : "Bridge33",
+    "destination" : "ES132",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link232-2/Port365",
+    "source" : "ES132",
+    "destination" : "Bridge33",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link233-1/Port366",
+    "source" : "Bridge33",
+    "destination" : "ES133",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link233-2/Port367",
+    "source" : "ES133",
+    "destination" : "Bridge33",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link234-1/Port368",
+    "source" : "Bridge33",
+    "destination" : "ES134",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link234-2/Port369",
+    "source" : "ES134",
+    "destination" : "Bridge33",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link235-1/Port370",
+    "source" : "Bridge33",
+    "destination" : "ES135",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link235-2/Port371",
+    "source" : "ES135",
+    "destination" : "Bridge33",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link236-1/Port372",
+    "source" : "Bridge34",
+    "destination" : "ES136",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link236-2/Port373",
+    "source" : "ES136",
+    "destination" : "Bridge34",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link237-1/Port374",
+    "source" : "Bridge34",
+    "destination" : "ES137",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link237-2/Port375",
+    "source" : "ES137",
+    "destination" : "Bridge34",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link238-1/Port376",
+    "source" : "Bridge34",
+    "destination" : "ES138",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link238-2/Port377",
+    "source" : "ES138",
+    "destination" : "Bridge34",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link239-1/Port378",
+    "source" : "Bridge34",
+    "destination" : "ES139",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link239-2/Port379",
+    "source" : "ES139",
+    "destination" : "Bridge34",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link240-1/Port380",
+    "source" : "Bridge35",
+    "destination" : "ES140",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link240-2/Port381",
+    "source" : "ES140",
+    "destination" : "Bridge35",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link241-1/Port382",
+    "source" : "Bridge35",
+    "destination" : "ES141",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link241-2/Port383",
+    "source" : "ES141",
+    "destination" : "Bridge35",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link242-1/Port384",
+    "source" : "Bridge35",
+    "destination" : "ES142",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link242-2/Port385",
+    "source" : "ES142",
+    "destination" : "Bridge35",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link243-1/Port386",
+    "source" : "Bridge35",
+    "destination" : "ES143",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link243-2/Port387",
+    "source" : "ES143",
+    "destination" : "Bridge35",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link244-1/Port388",
+    "source" : "Bridge36",
+    "destination" : "ES144",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link244-2/Port389",
+    "source" : "ES144",
+    "destination" : "Bridge36",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link245-1/Port390",
+    "source" : "Bridge36",
+    "destination" : "ES145",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link245-2/Port391",
+    "source" : "ES145",
+    "destination" : "Bridge36",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link246-1/Port392",
+    "source" : "Bridge36",
+    "destination" : "ES146",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link246-2/Port393",
+    "source" : "ES146",
+    "destination" : "Bridge36",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link247-1/Port394",
+    "source" : "Bridge36",
+    "destination" : "ES147",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link247-2/Port395",
+    "source" : "ES147",
+    "destination" : "Bridge36",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link248-1/Port396",
+    "source" : "Bridge37",
+    "destination" : "ES148",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link248-2/Port397",
+    "source" : "ES148",
+    "destination" : "Bridge37",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link249-1/Port398",
+    "source" : "Bridge37",
+    "destination" : "ES149",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link249-2/Port399",
+    "source" : "ES149",
+    "destination" : "Bridge37",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link250-1/Port400",
+    "source" : "Bridge37",
+    "destination" : "ES150",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link250-2/Port401",
+    "source" : "ES150",
+    "destination" : "Bridge37",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link251-1/Port402",
+    "source" : "Bridge37",
+    "destination" : "ES151",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link251-2/Port403",
+    "source" : "ES151",
+    "destination" : "Bridge37",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link252-1/Port404",
+    "source" : "Bridge38",
+    "destination" : "ES152",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link252-2/Port405",
+    "source" : "ES152",
+    "destination" : "Bridge38",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link253-1/Port406",
+    "source" : "Bridge38",
+    "destination" : "ES153",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link253-2/Port407",
+    "source" : "ES153",
+    "destination" : "Bridge38",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link254-1/Port408",
+    "source" : "Bridge38",
+    "destination" : "ES154",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link254-2/Port409",
+    "source" : "ES154",
+    "destination" : "Bridge38",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link255-1/Port410",
+    "source" : "Bridge38",
+    "destination" : "ES155",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link255-2/Port411",
+    "source" : "ES155",
+    "destination" : "Bridge38",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link256-1/Port412",
+    "source" : "Bridge39",
+    "destination" : "ES156",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link256-2/Port413",
+    "source" : "ES156",
+    "destination" : "Bridge39",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link257-1/Port414",
+    "source" : "Bridge39",
+    "destination" : "ES157",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link257-2/Port415",
+    "source" : "ES157",
+    "destination" : "Bridge39",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link258-1/Port416",
+    "source" : "Bridge39",
+    "destination" : "ES158",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link258-2/Port417",
+    "source" : "ES158",
+    "destination" : "Bridge39",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link259-1/Port418",
+    "source" : "Bridge39",
+    "destination" : "ES159",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link259-2/Port419",
+    "source" : "ES159",
+    "destination" : "Bridge39",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link260-1/Port420",
+    "source" : "Bridge40",
+    "destination" : "ES160",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link260-2/Port421",
+    "source" : "ES160",
+    "destination" : "Bridge40",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link261-1/Port422",
+    "source" : "Bridge40",
+    "destination" : "ES161",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link261-2/Port423",
+    "source" : "ES161",
+    "destination" : "Bridge40",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link262-1/Port424",
+    "source" : "Bridge40",
+    "destination" : "ES162",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link262-2/Port425",
+    "source" : "ES162",
+    "destination" : "Bridge40",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link263-1/Port426",
+    "source" : "Bridge40",
+    "destination" : "ES163",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link263-2/Port427",
+    "source" : "ES163",
+    "destination" : "Bridge40",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link264-1/Port428",
+    "source" : "Bridge41",
+    "destination" : "ES164",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link264-2/Port429",
+    "source" : "ES164",
+    "destination" : "Bridge41",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link265-1/Port430",
+    "source" : "Bridge41",
+    "destination" : "ES165",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link265-2/Port431",
+    "source" : "ES165",
+    "destination" : "Bridge41",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link266-1/Port432",
+    "source" : "Bridge41",
+    "destination" : "ES166",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link266-2/Port433",
+    "source" : "ES166",
+    "destination" : "Bridge41",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link267-1/Port434",
+    "source" : "Bridge41",
+    "destination" : "ES167",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link267-2/Port435",
+    "source" : "ES167",
+    "destination" : "Bridge41",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link268-1/Port436",
+    "source" : "Bridge42",
+    "destination" : "ES168",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link268-2/Port437",
+    "source" : "ES168",
+    "destination" : "Bridge42",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link269-1/Port438",
+    "source" : "Bridge42",
+    "destination" : "ES169",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link269-2/Port439",
+    "source" : "ES169",
+    "destination" : "Bridge42",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link270-1/Port440",
+    "source" : "Bridge42",
+    "destination" : "ES170",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link270-2/Port441",
+    "source" : "ES170",
+    "destination" : "Bridge42",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link271-1/Port442",
+    "source" : "Bridge42",
+    "destination" : "ES171",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link271-2/Port443",
+    "source" : "ES171",
+    "destination" : "Bridge42",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link272-1/Port444",
+    "source" : "Bridge43",
+    "destination" : "ES172",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link272-2/Port445",
+    "source" : "ES172",
+    "destination" : "Bridge43",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link273-1/Port446",
+    "source" : "Bridge43",
+    "destination" : "ES173",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link273-2/Port447",
+    "source" : "ES173",
+    "destination" : "Bridge43",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link274-1/Port448",
+    "source" : "Bridge43",
+    "destination" : "ES174",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link274-2/Port449",
+    "source" : "ES174",
+    "destination" : "Bridge43",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link275-1/Port450",
+    "source" : "Bridge43",
+    "destination" : "ES175",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link275-2/Port451",
+    "source" : "ES175",
+    "destination" : "Bridge43",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link276-1/Port452",
+    "source" : "Bridge44",
+    "destination" : "ES176",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link276-2/Port453",
+    "source" : "ES176",
+    "destination" : "Bridge44",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link277-1/Port454",
+    "source" : "Bridge44",
+    "destination" : "ES177",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link277-2/Port455",
+    "source" : "ES177",
+    "destination" : "Bridge44",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link278-1/Port456",
+    "source" : "Bridge44",
+    "destination" : "ES178",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link278-2/Port457",
+    "source" : "ES178",
+    "destination" : "Bridge44",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link279-1/Port458",
+    "source" : "Bridge44",
+    "destination" : "ES179",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link279-2/Port459",
+    "source" : "ES179",
+    "destination" : "Bridge44",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link280-1/Port460",
+    "source" : "Bridge45",
+    "destination" : "ES180",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link280-2/Port461",
+    "source" : "ES180",
+    "destination" : "Bridge45",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link281-1/Port462",
+    "source" : "Bridge45",
+    "destination" : "ES181",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link281-2/Port463",
+    "source" : "ES181",
+    "destination" : "Bridge45",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link282-1/Port464",
+    "source" : "Bridge45",
+    "destination" : "ES182",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link282-2/Port465",
+    "source" : "ES182",
+    "destination" : "Bridge45",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link283-1/Port466",
+    "source" : "Bridge45",
+    "destination" : "ES183",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link283-2/Port467",
+    "source" : "ES183",
+    "destination" : "Bridge45",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link284-1/Port468",
+    "source" : "Bridge46",
+    "destination" : "ES184",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link284-2/Port469",
+    "source" : "ES184",
+    "destination" : "Bridge46",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link285-1/Port470",
+    "source" : "Bridge46",
+    "destination" : "ES185",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link285-2/Port471",
+    "source" : "ES185",
+    "destination" : "Bridge46",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link286-1/Port472",
+    "source" : "Bridge46",
+    "destination" : "ES186",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link286-2/Port473",
+    "source" : "ES186",
+    "destination" : "Bridge46",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link287-1/Port474",
+    "source" : "Bridge46",
+    "destination" : "ES187",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link287-2/Port475",
+    "source" : "ES187",
+    "destination" : "Bridge46",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link288-1/Port476",
+    "source" : "Bridge47",
+    "destination" : "ES188",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link288-2/Port477",
+    "source" : "ES188",
+    "destination" : "Bridge47",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link289-1/Port478",
+    "source" : "Bridge47",
+    "destination" : "ES189",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link289-2/Port479",
+    "source" : "ES189",
+    "destination" : "Bridge47",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link290-1/Port480",
+    "source" : "Bridge47",
+    "destination" : "ES190",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link290-2/Port481",
+    "source" : "ES190",
+    "destination" : "Bridge47",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link291-1/Port482",
+    "source" : "Bridge47",
+    "destination" : "ES191",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link291-2/Port483",
+    "source" : "ES191",
+    "destination" : "Bridge47",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link292-1/Port484",
+    "source" : "Bridge48",
+    "destination" : "ES192",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link292-2/Port485",
+    "source" : "ES192",
+    "destination" : "Bridge48",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link293-1/Port486",
+    "source" : "Bridge48",
+    "destination" : "ES193",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link293-2/Port487",
+    "source" : "ES193",
+    "destination" : "Bridge48",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link294-1/Port488",
+    "source" : "Bridge48",
+    "destination" : "ES194",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link294-2/Port489",
+    "source" : "ES194",
+    "destination" : "Bridge48",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link295-1/Port490",
+    "source" : "Bridge48",
+    "destination" : "ES195",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link295-2/Port491",
+    "source" : "ES195",
+    "destination" : "Bridge48",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link296-1/Port492",
+    "source" : "Bridge49",
+    "destination" : "ES196",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link296-2/Port493",
+    "source" : "ES196",
+    "destination" : "Bridge49",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link297-1/Port494",
+    "source" : "Bridge49",
+    "destination" : "ES197",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link297-2/Port495",
+    "source" : "ES197",
+    "destination" : "Bridge49",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link298-1/Port496",
+    "source" : "Bridge49",
+    "destination" : "ES198",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link298-2/Port497",
+    "source" : "ES198",
+    "destination" : "Bridge49",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link299-1/Port498",
+    "source" : "Bridge49",
+    "destination" : "ES199",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  }, {
+    "name" : "Link299-2/Port499",
+    "source" : "ES199",
+    "destination" : "Bridge49",
+    "propagationDelay" : 100,
+    "transmissionRate" : 0.125,
+    "egressQueues" : 8,
+    "gclEntries" : 1024
+  } ]
+}
